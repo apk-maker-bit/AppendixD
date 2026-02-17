@@ -1,4 +1,4 @@
-# Patent Owner Cleaning & Harmonization Pipeline
+# Patent owner cleaning & harmonization pipeline
 Patent data cleaning and harmonization pipeline used to produce a reproducible script for name cleaning, fuzzy consolidation and classification with regard to cofidentiality
 This repository contains the methodology and scripts used for cleaning and harmonizing patent assignee data exported from Lens.org.
 
@@ -16,6 +16,7 @@ The pipeline is designed to transform messy patent ownership strings into standa
 1. Install dependencies: `pip install -r requirements.txt`
 2. Place your raw Lens.org export in the `data/` folder as `input_data.xlsx`.
 3. Run the pipeline: `python src/cleaning_pipeline.py`
+4. The `harmonization_map.csv` is a template to add user's own rules
 
 ## Reproducibility & Confidentiality
 In accordance with reproducible research standards, the logic and rule-maps are provided here. All sensitive data has been stripped from this public version; users should provide their own `input_data.xlsx` following the standard Lens.org format.
