@@ -1,10 +1,11 @@
 {
-   "Stora Enso":[
-      "\\bstora\\s*enso\\b",
-      "\\bennocell\\b"
+   "Company A":[
+      "\\bcompany\\A\\b",
+      "\\bcompany\\A\\Europe\\b"
    ],
-   "UPM":[
-      "\\bupm\\b",
-      "\\braflatac\\b"
+   "Corporation B":[
+      "\\bcorp\\b\\subsidiary\\b",
+      "\\bcorp\\b\\b"
    ]
 }
+
