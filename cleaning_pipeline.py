@@ -51,6 +51,11 @@ def restore_diacritics(token: str) -> str:
 
 # --- 3. CORE CLEANING ENGINE ---
 def clean_token(token: str) -> Optional[str]:
+    def apply_harmonization(name: str) -> str:
+    """Checks if the name exists in the manual harmonization map."""
+    if not HARMONIZATION_RULES.empty and name in HARMONIZATION_RULES['original_name'].values:
+        return HARMONIZATION_RULES.loc[HARMONIZATION_RULES['original_name'] == name, 'standardized_name'].values[0]
+    return name
     if not token: return None
     x = normalize_unicode(token).lower()
     x = re.sub(r"\([^)]*\)", " ", x)
