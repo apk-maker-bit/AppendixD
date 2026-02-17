@@ -1,0 +1,10 @@
+{
+   "Stora Enso":[
+      "\\bstora\\s*enso\\b",
+      "\\bennocell\\b"
+   ],
+   "UPM":[
+      "\\bupm\\b",
+      "\\braflatac\\b"
+   ]
+}
