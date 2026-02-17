@@ -1,0 +1,4 @@
+pandas
+openpyxl
+rapidfuzz
+# Note: unicodedata, re, json, and hashlib are part of Python's standard library
