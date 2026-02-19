@@ -1,0 +1,9 @@
+{
+  "legal_suffixes": [
+    "inc", "inc\\.", "co", "co\\.", "corp", "corporation", "limited", "ltd", "ltd\\.",
+    "llc", "llp", "plc", "oy", "oyj", "osakeyhti[oö]", "ab", "abp", "aktiebolag",
+    "as", "asa", "aps", "a/s", "aktieselskab", "ag", "gmbh", "kg", "se", "kgaa",
+    "sa", "s\\.a\\.", "sarl", "spa", "sas", "sro", "sp\\.z\\.o\\.o\\.",
+    "l\\.p", "lp", "aktiengesellschaft", "n\\.v\\."
+  ]
+}
