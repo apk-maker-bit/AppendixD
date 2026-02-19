@@ -9,8 +9,7 @@ The pipeline is designed to transform messy patent ownership strings into standa
 ## Workflow Steps
 1. **Normalization**: Standardizes Unicode characters and handles Nordic diacritics (e.g., converting 'ae' to 'ä').
 2. **Token Cleaning**: Removes legal suffixes (Ltd, Oy, GmbH) and parenthetical information.
-3. **Classification**: Uses keyword-based cues (defined in `company_cues.json`) to categorize entities into Academia, Nonprofit, Company, or Individual.
-4. **Parent Mapping**: Applies regex patterns (defined in `parent_patterns.json`) to group subsidiaries or variations under a single parent entity (e.g., 'Ennocell' -> 'Stora Enso').
+3. **Parent Mapping**: Applies regex patterns (defined in `parent_patterns.json`) to group subsidiaries or variations under a single parent entity (e.g., Company A-1 -> Company A).
 
 ## Usage
 1. Install dependencies: `pip install -r requirements.txt`
