@@ -1,5 +1,5 @@
 # Patent owner cleaning & harmonization pipeline
-Patent data cleaning and harmonization pipeline used to produce a reproducible script for name cleaning, fuzzy consolidation and classification with regard to cofidentiality
+Patent data cleaning and harmonization pipeline used to produce a reproducible script for name cleaning and fuzzy consolidation with regard to cofidentiality
 This repository contains the methodology and scripts used for cleaning and harmonizing patent assignee data exported from Lens.org.
 
 ## Overview
